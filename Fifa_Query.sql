@@ -6,6 +6,8 @@ select * from matches;
 select * from stadiums;
 select * from teams;
 
+-- The below given are the 16 queries about the world cup data on the basis of analysis:
+
 /*1. How many goals were scored in the tournament? */
 SELECT COUNT(G.Goal_ID) AS Total_Goals_Scored
 FROM Goals G;
